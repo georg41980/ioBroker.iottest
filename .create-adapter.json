@@ -1,0 +1,49 @@
+{
+    "expert": "yes",
+    "cli": false,
+    "adapterName": "iottest",
+    "title": "iottest",
+    "description": "",
+    "keywords": "",
+    "contributors": "",
+    "authorName": "georg41980",
+    "authorGithub": "georg41980",
+    "authorEmail": "ylesrvny@duck.com",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "iot-systems",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "poll",
+    "connectionIndicator": "yes",
+    "adapterSettings": [
+        {
+            "key": "option1",
+            "defaultValue": true,
+            "inputType": "checkbox"
+        },
+        {
+            "key": "option2",
+            "defaultValue": "42",
+            "inputType": "text"
+        }
+    ],
+    "language": "JavaScript",
+    "nodeVersion": "16",
+    "adminUi": "json",
+    "releaseScript": "yes",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "es6class": "yes",
+    "tools": [
+        "ESLint",
+        "type checking"
+    ],
+    "gitRemoteProtocol": "HTTPS",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "target": "github",
+    "creatorVersion": "2.3.0"
+}
